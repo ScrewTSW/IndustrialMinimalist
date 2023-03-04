@@ -16,10 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"eu.dasancti.ExampleMod"
+			"eu.dasancti.IndustrialMinimalist"
+		],
+		"client": [
+			"eu.dasancti.IndustrialMinimalistClient"
 		],
 		"fabric-datagen": [
-			"eu.dasancti.ExampleModDataGenerator"
+			"eu.dasancti.IndustrialMinimalistDataGenerator"
 		]
 	},
 	"mixins": [
